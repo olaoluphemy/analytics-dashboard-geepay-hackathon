@@ -1,0 +1,110 @@
+@media screen and (max-width: 900px) {
+  .date,
+  .bell {
+    display: none;
+  }
+
+  .input {
+    width: default;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .date,
+  .bell {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .input {
+    display: none;
+  }
+
+  .main {
+    display: grid;
+    grid-template-columns: 1fr;
+    position: relative;
+  }
+
+  .nav-bar {
+    position: fixed;
+    z-index: 100;
+    height: fit-content;
+    left: -100%;
+  }
+
+  .dashboard h4 {
+    display: none;
+  }
+
+  .hamburger {
+    display: block;
+  }
+
+  .hamburger div {
+    height: 0.25rem;
+    width: 1.7rem;
+    margin-bottom: 3px;
+    border-radius: 30px;
+    background-color: #34caa5;
+  }
+
+  .date,
+  .bell {
+    display: none;
+  }
+
+  td > p {
+    white-space: nowrap;
+  }
+
+  .main-section {
+    grid-template-columns: 1fr;
+  }
+
+  .main-graph {
+    margin-bottom: 1.5rem;
+  }
+
+  .transaction-history {
+    overflow-x: scroll;
+    margin-bottom: 1.5rem;
+    overflow-x: scroll;
+    /* padding: 0; */
+  }
+
+  .transaction-history:hover::-webkit-scrollbar {
+    display: block;
+  }
+
+  .transaction-history::-webkit-scrollbar-thumb {
+    background-color: #8a8a8a;
+    border-radius: 30px;
+  }
+
+  .transaction-history::-webkit-scrollbar {
+    display: none;
+    background-color: #fff;
+    height: 5px;
+    border-radius: 30px;
+  }
+
+  .order-deets {
+    margin-right: 1.5rem;
+  }
+
+  .side-graphs {
+    grid-template-columns: 1fr;
+    padding: 0;
+    gap: 1.5rem;
+  }
+
+  .platform-section {
+    padding: 0;
+  }
+
+  .invoice-receipt {
+    width: 80%;
+  }
+}
