@@ -38,6 +38,7 @@ export default function BarChart() {
               "rgba(52, 202, 165, 0.5)",
               "rgba(52, 202, 165, 0.5)",
             ],
+            borderRadius: 500,
           },
         ],
       }}
