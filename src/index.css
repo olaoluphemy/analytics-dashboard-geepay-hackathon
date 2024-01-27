@@ -477,7 +477,7 @@ td {
 }
 
 .invoice-receipt::-webkit-scrollbar {
-  display: none;
+  /* display: none; */
   background-color: #fff;
   width: 5px;
   border-radius: 30px;
