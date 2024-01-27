@@ -51,7 +51,7 @@ export default function MainNavBar({ isDark, onShowSideBar }) {
             <p className="email">Majek@gmail.com</p>
           </div>
           <div className="arrow-down" onClick={handleArrowClick}>
-            <img src="Arrow---down-2.png" alt="avi" />
+            <img src="down.png" alt="avi" />
           </div>
           {isOpen && <ProfileModal />}
         </div>
